@@ -6,15 +6,15 @@
 </head>
 <body>
 	<h1> Volunteer Form </h1>
-	<form method = "POST" autocomplelte = "on" action = "http:/bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
+	<form method ="post" action ="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
 		<fieldset>
 			<legend> 
 				<h2> My Information </h2>
 			</legend>
-			<p>	<label> First Name: <input type ="text" name "first_name_field" placeholder= "First Name"></label></p>
+			<p>	<label> First Name: <input type ="text" name="first_name_field" placeholder="First Name"></label></p>
 			<p>	<label> Last Name: <input type= "text" name="last_name_field" placeholder="Last Name"></label></p>
-			<p><label>Phone Number:<input type = "tel" name ="phone_field"placeholder="Phone Number"></label></p>
-			<p><label>Email Address:<input type="email"name="email_field"placeholder="Email Address"></label></p>
+			<p><label>Phone Number:<input type= "tel" name="phone_field" placeholder="Phone Number"></label></p>
+			<p><label>Email Address:<input type="email" name="email_field" placeholder="Email Address"></label></p>
 			<p>
 			<label>Gender:</label>
 			<label>Male<input type="radio" name="gender_field" value="Male"></label>
@@ -43,7 +43,7 @@
 				<label>Monday<input type="checkbox" name="available_field[]" value="Monday"></label>
 				</p>
 				<p>
-				<label>Tuesday<label>	<input type="checkbox" name="available_field[]" value="Tuesday"></label>
+				<label>Tuesday<input type="checkbox" name="available_field[]" value="Tuesday"></label>
 				</p>
 				<p>
 				<label>Wednesday<input type="checkbox" name="available_field[]" value="Wednesday"></label>
@@ -52,26 +52,26 @@
 				<label>Thursday<input type ="checkbox" name="available_field[]" value="Thursday"></label>
 				</p>
 				<p>
-				<label>Friday<input type="checkbox" name= "available_field[]" value=Friday"></label>
+				<label>Friday<input type="checkbox" name= "available_field[]" value="Friday"></label>
 				</p>
 				<p>
-				<label>Saturday<input type="checkbox" name="available_field[]" value=Saturday"></label>
+				<label>Saturday<input type="checkbox" name="available_field[]" value="Saturday"></label>
 				</p>
 				<p>
 				<label>Additional Comments:</label>
 				</p>
-				<textarea cols="50" rows="10" maxlength="140"name=comments_field placeholder="Please write any additional comments" ></textarea>
+				<textarea cols="50" rows="10" maxlength="140" name=comments_field placeholder="Please write any additional comments" ></textarea>
 					<input type="hidden" name="hidden_field" value="Rezekiel">
 		</fieldset>
 		<fieldset>
 			<legend><h4>Submit</h4></legend>
-			<input type="submit"value="Submit">
+			<input type="submit" value="Submit">
 		</fieldset>
 				
 		<p>
 		<i>Thank you for volunteering</i>
 		</p>
 
-
+	</form>
 </body>
 </html>
